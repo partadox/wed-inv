@@ -384,7 +384,7 @@
 
     <script>
         var sound = new Howl({
-        src: ['<?= base_url() ?>/public/assets/music/Walk You Home Ori.mp3'],
+        src: ['<?= base_url() ?>/public/assets/music/Walk You Home Ori Compress.mp3'],
         autoplay: true,
         loop: true,
         volume: 0.5,
