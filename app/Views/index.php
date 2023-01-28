@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="author" content="artakusuma">
     <link rel="shortcut icon" type="image/png" href="<?= base_url() ?>/public/assets/images/favicon.png">
-    <title> Neneng & Arta Undangan</title>
+    <title> Neneng & Arta Undangan Pernikahan</title>
     <link href="<?= base_url() ?>/public/assets/css/themify-icons.css" rel="stylesheet">
     <link href="<?= base_url() ?>/public/assets/css/font-awesome.min.css" rel="stylesheet">
     <link href="<?= base_url() ?>/public/assets/css/flaticon.css" rel="stylesheet">

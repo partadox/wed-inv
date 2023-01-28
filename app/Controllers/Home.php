@@ -63,6 +63,11 @@ class Home extends BaseController
         
         $ucapan       = $this->ucapan->list();
 
+        $data = [
+            'undangan'	=> 'Tamu Undangan',
+            'ucapan'    => $ucapan,
+        ];
+
         if ($slug != NULL) {
 
             $cek_undangan = $this->undangan->cek($slug);
@@ -79,8 +84,6 @@ class Home extends BaseController
             } else {
                 $this->not_found();
             }
-            
-            
 
         } else {
             $data = [
