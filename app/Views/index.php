@@ -38,7 +38,7 @@
                     <div class="loader-line-mask">
                         <div class="loader-line"></div>
                     </div>
-                    <img src="<?= base_url() ?>/public/assets/images/preloader.png" alt="">
+                    <h2 style="color:white; font-family:Gilda Display, serif;">N & A</h2>
                 </div>
             </div>
         </div>
@@ -312,7 +312,7 @@
                     </div>
                     <div class="wpo-story-content">
                         <div class="wpo-story-content-inner">
-                            <h4 style="text-align: center; margin-top: 30px;">
+                            <h4 style="text-align: center; margin-top: 30px; font-family:Gilda Display, serif;">
                                 Kepada <?= $undangan ?>
                             </h4>
                             <h6 style="text-align: center; margin-left: 10px; margin-right: 10px;"> 
