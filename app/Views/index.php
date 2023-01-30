@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="author" content="artakusuma">
     <link rel="shortcut icon" type="image/png" href="<?= base_url() ?>/public/assets/images/favicon.png">
-    <title> Neneng & Arta Undangan Pernikahan</title>
+    <title> Neneng & Arta Undangan</title>
     <link href="<?= base_url() ?>/public/assets/css/themify-icons.css" rel="stylesheet">
     <link href="<?= base_url() ?>/public/assets/css/font-awesome.min.css" rel="stylesheet">
     <link href="<?= base_url() ?>/public/assets/css/flaticon.css" rel="stylesheet">
@@ -44,7 +44,7 @@
         </div>
         <!-- end preloader -->
 
-        <!-- start of hero -->
+        <!-- start slider -->
         <section class="static-hero">
             <div class="hero-container">
                 <div class="hero-inner">
@@ -82,7 +82,7 @@
                 </div>
             </div>
         </section>
-        <!-- end of hero slider -->
+        <!-- end slider -->
         <!-- start couple-section -->
         <section class="couple-section section-padding" id="couple">
             <div class="container">
@@ -115,7 +115,7 @@
         </section>
         <!-- end couple-section -->
 
-        <!-- start wpo-event-section -->
+        <!-- start-event-section -->
         <section class="wpo-event-section section-padding" id="event">
             <div class="container">
                 <div class="row">
@@ -167,9 +167,9 @@
 
             </div> <!-- end container -->
         </section>
-        <!-- end wpo-event-section -->
+        <!-- end-event-section -->
 
-        <!-- start of wpo-contact-section -->
+        <!-- start-contact-section -->
         <section class="wpo-contact-section" id="RSVP">
             <div class="container">
                 <div class="wpo-contact-section-wrapper">
@@ -216,7 +216,7 @@
                 </div>
             </div>
         </section>
-        <!-- end of wpo-contact-section -->
+        <!-- end-contact-section -->
 
 
         <!-- start komen-section -->
@@ -263,7 +263,7 @@
         </section>
         <!-- end komen-section -->
 
-        <!-- start galery-section -->
+        <!-- start-section -->
         <section class="wpo-pricing-section-s2 section-padding">
             <div class="container">
                 <div class="row">
@@ -298,9 +298,9 @@
                 </div>
                 
 
-            </div> <!-- end container -->
+            </div> 
         </section>
-        <!-- end wpo-pricing-section -->
+        <!-- end  -->
           
           <!-- Modal -->
           <div class="modal fade" id="inviteModal" tabindex="-1" aria-labelledby="inviteModalLabel" aria-hidden="true">
@@ -334,31 +334,6 @@
               </div>
             </div>
           </div>
-
-
-        <!-- color-switcher -->
-        <!-- <div class="color-switcher-wrap">
-            <div class="color-switcher-item">
-                <div class="color-toggle-btn">
-                    <i class="fa fa-cog"></i>
-                </div>
-                <ul id="switcher">
-                    <li class="btn btn1" id="Button1"></li>
-                    <li class="btn btn2" id="Button2"></li>
-                    <li class="btn btn3" id="Button3"></li>
-                    <li class="btn btn4" id="Button4"></li>
-                    <li class="btn btn5" id="Button5"></li>
-                    <li class="btn btn6" id="Button6"></li>
-                    <li class="btn btn7" id="Button7"></li>
-                    <li class="btn btn8" id="Button8"></li>
-                    <li class="btn btn9" id="Button9"></li>
-                    <li class="btn btn10" id="Button10"></li>
-                    <li class="btn btn11" id="Button11"></li>
-                    <li class="btn btn12" id="Button12"></li>
-                </ul>
-            </div>
-        </div> -->
-
     </div>
     <!-- end of page-wrapper -->
 
@@ -367,11 +342,9 @@
     ================================================== -->
     <script src="<?= base_url() ?>/public/assets/js/jquery.min.js"></script>
     <script src="<?= base_url() ?>/public/assets/js/bootstrap.bundle.min.js"></script>
-    <!-- Plugins for this template -->
     <script src="<?= base_url() ?>/public/assets/js/modernizr.custom.js"></script>
     <script src="<?= base_url() ?>/public/assets/js/jquery.dlmenu.js"></script>
     <script src="<?= base_url() ?>/public/assets/js/jquery-plugin-collection.js"></script>
-    <!-- Custom script for this template -->
     <script src="<?= base_url() ?>/public/assets/js/script.js"></script>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/howler/2.2.3/howler.js" integrity="sha512-dMiBqqEV5i3KqpAdsgQSSZ72DnNib7otY0X+b/Tnn1EmLym1dxuZ19csdZqBnfDniKd9bmNtzStQzuMrIa5Ngw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>

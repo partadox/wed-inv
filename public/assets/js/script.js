@@ -893,6 +893,23 @@
         return false;
     })
 
+    /*------------------------------------------
+        = Pause and Play Sound
+    -------------------------------------------*/
+
+    $("body").append("<a class='mute' id='mute'><i class='ti-control-pause'></i></a>");
+    $("body").append("<a class='play' id='play'><i class='ti-control-play'></i></a>");
+    $("#mute").on("click", function() {
+        sound.pause();
+        $(this).attr('style','display: none');
+        $("#play").attr('style','display: inline');
+    })
+
+    $("#play").on("click", function() {
+        sound.play();
+        $(this).attr('style','display: none');
+        $("#mute").attr('style','display: inline');
+    })
 
 
     /*------------------------------------------

@@ -331,6 +331,43 @@ img {
   transform: translate(-50%, -50%);
 }
 
+/*** mute **/
+.mute {
+  background-color: rgba(163, 136, 140, 0.7);
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  border: 2px solid #a3888c;
+  border-radius: 45px;
+  text-align: center;
+  display: none;
+  position: fixed;
+  z-index: 999;
+  right: 15px;
+  bottom: 45px;
+  transition: all 0.2s;
+}
+@media (max-width: 991px) {
+  .mute {
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+  }
+}
+.mute:hover {
+  background-color: #a3888c;
+}
+
+.mute i {
+  font-size: 18px;
+  font-size: 1.2rem;
+  color: #fff;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
 /** for popup image ***/
 .mfp-wrap {
   background-color: rgba(0, 0, 0, 0.9);
