@@ -188,7 +188,7 @@
                                 <select name="kehadiran" id="kehadiran" class="form-control">
                                     <option disabled="disabled" selected>Kehadiran...</option>
                                     <option value="1">Hadir</option>
-                                    <option value="2">Tidak Hadir</option>
+                                    <option value="0">Tidak Hadir</option>
                                 </select>
                             </div>
                             <div>
