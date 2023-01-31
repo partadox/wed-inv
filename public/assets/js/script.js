@@ -945,7 +945,7 @@
                         ucapan: $('input#ucapan').val(),
                     },
                     dataType: "json",
-                    success: function () {
+                    success: function (data) {
                         $( "#loader").hide();
                         $( "#success").slideDown( "slow" );
                         setTimeout(function() {
@@ -954,12 +954,19 @@
                         form.reset();
                     },
                     error: function() {
+                        var nama= $('input#name').val();
+                        var isi=$('input#ucapan').val();
                         $( "#loader").hide();
                         $( "#success").slideDown( "slow" );
                         setTimeout(function() {
                         $( "#success").slideUp( "slow" );
                         }, 3000);
+                        form.reset();
+                        var html = '<div class="comment-main-area"><div class="comment-wrapper"><div class="comments-meta"><h6 style="text-align:left;">';
+                            html += '<h6 style="text-align:left;">'+nama+'<span style="float:right; color:burlywood">'+'Baru Ditambahkan'+'</span> </h6></div><div class="comment-area"><p>'+isi+'</p></div></div></div><hr class="divider">';
+                            $('#komen').prepend(html);
                     }
+                    
                 });
                 return false; // required to block normal submit since you used ajax
             }

@@ -31,14 +31,10 @@ class Home extends BaseController
         $uri    = service('uri');
         $slug   = $uri->getSegment(1);
 
-        if ($slug != NULL) {
-            $slug = $slug;
-        } else {
+        if ($slug == NULL) {
             $slug = 'home';
-        }
-        
+        };
 
-		
         $visitor = [
             'vs_ip'        => $ip,
             'vs_slug'      => $slug,

@@ -178,7 +178,7 @@
                             <div class="section-title-img">
                                 <img src="<?= base_url() ?>/public/assets/images/section-title.png" alt="">
                             </div>
-                            <h2>RSVP</h2>
+                            <h2>Kirim Ucapan</h2>
                         </div>
                         <form method="post" class="contact-validation-active" id="contact-form-main">
                             <div>
@@ -195,7 +195,7 @@
                                 <input type="text" class="form-control" name="ucapan" id="ucapan" placeholder="Tulis Ucapan...">
                             </div>
                             <div class="submit-area">
-                                <button type="submit" class="theme-btn-s3">Kirim Ucapan</button>
+                                <button type="submit"  name="add" id="add"  class="theme-btn-s3">Kirim</button>
                                 <div id="c-loader">
                                     <i class="ti-reload"></i>
                                 </div>
@@ -234,7 +234,7 @@
                     <div class="row">
                         <div class="col">
                             <div class="wpo-pricing-item">
-                                <div class="komen">
+                                <div class="komen" id="komen">
                                 <?php
                                 foreach ($ucapan as $dtc) :?>
                                     <div class="comment-main-area">
