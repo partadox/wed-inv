@@ -247,7 +247,7 @@
                                                 </h6>
                                             </div>
                                             <div class="comment-area">
-                                                <p><?= htmlentities($dtc['uc_isi']) ?></p>
+                                                <p><?= $dtc['uc_isi'] ?></p>
                                             </div>
                                         </div>
                                     </div>
